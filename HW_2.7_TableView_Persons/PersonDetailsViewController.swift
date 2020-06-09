@@ -12,13 +12,13 @@ class PersonDetailsViewController: UIViewController {
     
     @IBOutlet var telephoneLabel: UILabel!
     @IBOutlet var eMaiLabel: UILabel!
-    var person: Person!
+    
+    var contact: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        telephoneLabel.text = person.fullName
-       /* telephoneLabel.text = person.telephone
-        eMaiLabel.text = person.eMail */
+        telephoneLabel.text = contact.telephone
+        eMaiLabel.text = contact.eMail
     }
 }

@@ -70,16 +70,16 @@ class ContactListTableViewController: UITableViewController {
 
     
     // MARK: - Navigation
-
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    //        guard let indexPath = tableView.indexPathForSelectedRow else { return }
-            if segue.identifier == "showDetails" {
-                let personDetailsVC = segue.destination as! PersonDetailsViewController
-    //            trackDetailsVC.track = trackList[indexPath.row]
-                personDetailsVC.person = sender as? Person
-                  print("\(personDetailsVC.person)")
+    
+    
                 
-        }
-        }
+              
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+       // if segue.identifier == "showDetails" {
+            let personDetailsVC = segue.destination as! PersonDetailsViewController
+            personDetailsVC.contact = contactList[indexPath.row]
+         
+    }
     
 }

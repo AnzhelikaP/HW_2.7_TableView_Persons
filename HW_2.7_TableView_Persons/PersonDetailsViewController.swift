@@ -12,6 +12,7 @@ class PersonDetailsViewController: UIViewController {
     
     @IBOutlet var telephoneLabel: UILabel!
     @IBOutlet var eMaiLabel: UILabel!
+    @IBOutlet var contactDetails: UINavigationItem!
     
     var contact: Person!
     
@@ -20,5 +21,13 @@ class PersonDetailsViewController: UIViewController {
         
         telephoneLabel.text = contact.telephone
         eMaiLabel.text = contact.eMail
+        contactDetails.title = contact.fullName
     }
+    
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          
+            let backItem = UIBarButtonItem()
+              backItem.title = "Person contacts"
+              navigationItem.backBarButtonItem = backItem
+       }
 }

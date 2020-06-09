@@ -14,8 +14,7 @@ class ContactListTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+       
     }
 
     // MARK: - Table view data source
@@ -76,10 +75,10 @@ class ContactListTableViewController: UITableViewController {
               
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-       // if segue.identifier == "showDetails" {
+     
             let personDetailsVC = segue.destination as! PersonDetailsViewController
             personDetailsVC.contact = contactList[indexPath.row]
-         
+        
     }
     
 }

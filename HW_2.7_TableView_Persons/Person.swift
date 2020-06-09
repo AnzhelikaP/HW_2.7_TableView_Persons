@@ -11,7 +11,7 @@ struct Person {
     var surName: String
     var eMail: String
     var telephone: String
-    var FullName: String {
+    var fullName: String {
         "\(name)  \(surName)"
     }
 }
@@ -19,7 +19,7 @@ struct Person {
 extension Person {
     static func getPerson() -> [Person] {
         
-        var names = ["Agatha",
+       var names = ["Agatha",
                      "Joanna",
                      "Richard",
                      "Pamela",

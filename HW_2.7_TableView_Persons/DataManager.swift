@@ -6,10 +6,10 @@
 //  Copyright © 2020 Anzhelika. All rights reserved.
 //
 
-import UIKit
 
-/*
- class DataManager: UIViewController {
+
+
+ /* class DataManager: UITableViewController {
 
     var names = ["Agatha",
                      "Joanna",
@@ -65,5 +65,5 @@ import UIKit
     }
     */
 
-}
-*/
+} */
+

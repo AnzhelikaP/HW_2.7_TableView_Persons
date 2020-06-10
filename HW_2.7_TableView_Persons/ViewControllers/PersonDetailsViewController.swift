@@ -19,15 +19,16 @@ class PersonDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        contactDetails.title = contact.fullName
         telephoneLabel.text = contact.telephone
         eMaiLabel.text = contact.eMail
-        contactDetails.title = contact.fullName
+        
     }
     
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-          
-            let backItem = UIBarButtonItem()
-              backItem.title = "Person contacts"
-              navigationItem.backBarButtonItem = backItem
-       }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let backItem = UIBarButtonItem()
+        backItem.title = "Person contacts"
+        navigationItem.backBarButtonItem = backItem
+    }
 }

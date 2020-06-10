@@ -16,6 +16,8 @@
 		638969D9248FD1C600834D0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638969D8248FD1C600834D0B /* DataManager.swift */; };
 		638969DB248FE1C500834D0B /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638969DA248FE1C500834D0B /* ContactListTableViewController.swift */; };
 		638969DD248FF36700834D0B /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638969DC248FF36700834D0B /* PersonDetailsViewController.swift */; };
+		63B4AFFC24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4AFFB24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift */; };
+		63B4B00324907C4500EC32D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B4B00224907C4500EC32D5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		638969D8248FD1C600834D0B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		638969DA248FE1C500834D0B /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		638969DC248FF36700834D0B /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		63B4AFFB24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFullNameDetailsViewController.swift; sourceTree = "<group>"; };
+		63B4B00224907C4500EC32D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		638969B6248FCED200834D0B = {
 			isa = PBXGroup;
 			children = (
+				63B4B00224907C4500EC32D5 /* Default-568h@2x.png */,
 				638969C1248FCED300834D0B /* HW_2.7_TableView_Persons */,
 				638969C0248FCED300834D0B /* Products */,
 			);
@@ -62,18 +67,59 @@
 		638969C1248FCED300834D0B /* HW_2.7_TableView_Persons */ = {
 			isa = PBXGroup;
 			children = (
-				638969C2248FCED300834D0B /* AppDelegate.swift */,
-				638969C4248FCED300834D0B /* SceneDelegate.swift */,
-				638969D6248FCFC200834D0B /* Person.swift */,
-				638969DA248FE1C500834D0B /* ContactListTableViewController.swift */,
-				638969DC248FF36700834D0B /* PersonDetailsViewController.swift */,
-				638969D8248FD1C600834D0B /* DataManager.swift */,
-				638969C8248FCED300834D0B /* Main.storyboard */,
-				638969CB248FCED800834D0B /* Assets.xcassets */,
-				638969CD248FCED800834D0B /* LaunchScreen.storyboard */,
-				638969D0248FCED800834D0B /* Info.plist */,
+				63B4B0012490797500EC32D5 /* Sources */,
+				63B4AFFD249077E900EC32D5 /* Models */,
+				63B4AFFE2490781300EC32D5 /* ViewControllers */,
+				63B4B0002490792500EC32D5 /* Storyboards */,
+				63B4AFFF2490785400EC32D5 /* SupportingFiles */,
 			);
 			path = HW_2.7_TableView_Persons;
+			sourceTree = "<group>";
+		};
+		63B4AFFD249077E900EC32D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				638969D6248FCFC200834D0B /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63B4AFFE2490781300EC32D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				638969DA248FE1C500834D0B /* ContactListTableViewController.swift */,
+				638969DC248FF36700834D0B /* PersonDetailsViewController.swift */,
+				63B4AFFB24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		63B4AFFF2490785400EC32D5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				638969C4248FCED300834D0B /* SceneDelegate.swift */,
+				638969D8248FD1C600834D0B /* DataManager.swift */,
+				638969D0248FCED800834D0B /* Info.plist */,
+				638969C2248FCED300834D0B /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		63B4B0002490792500EC32D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				638969CD248FCED800834D0B /* LaunchScreen.storyboard */,
+				638969C8248FCED300834D0B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63B4B0012490797500EC32D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				638969CB248FCED800834D0B /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				638969CF248FCED800834D0B /* LaunchScreen.storyboard in Resources */,
+				63B4B00324907C4500EC32D5 /* Default-568h@2x.png in Resources */,
 				638969CC248FCED800834D0B /* Assets.xcassets in Resources */,
 				638969CA248FCED300834D0B /* Main.storyboard in Resources */,
 			);
@@ -148,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				638969D9248FD1C600834D0B /* DataManager.swift in Sources */,
+				63B4AFFC24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift in Sources */,
 				638969C3248FCED300834D0B /* AppDelegate.swift in Sources */,
 				638969DD248FF36700834D0B /* PersonDetailsViewController.swift in Sources */,
 				638969D7248FCFC200834D0B /* Person.swift in Sources */,
@@ -298,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = HW_2.7_TableView_Persons/Info.plist;
+				INFOPLIST_FILE = HW_2.7_TableView_Persons/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = HW_2.7_TableView_Persons/Info.plist;
+				INFOPLIST_FILE = HW_2.7_TableView_Persons/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

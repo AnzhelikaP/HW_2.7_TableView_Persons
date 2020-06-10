@@ -17,7 +17,6 @@
 		638969DB248FE1C500834D0B /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638969DA248FE1C500834D0B /* ContactListTableViewController.swift */; };
 		638969DD248FF36700834D0B /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638969DC248FF36700834D0B /* PersonDetailsViewController.swift */; };
 		63B4AFFC24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4AFFB24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift */; };
-		63B4B00324907C4500EC32D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B4B00224907C4500EC32D5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		638969DA248FE1C500834D0B /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		638969DC248FF36700834D0B /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		63B4AFFB24902C5600EC32D5 /* PersonFullNameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFullNameDetailsViewController.swift; sourceTree = "<group>"; };
-		63B4B00224907C4500EC32D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 		638969B6248FCED200834D0B = {
 			isa = PBXGroup;
 			children = (
-				63B4B00224907C4500EC32D5 /* Default-568h@2x.png */,
 				638969C1248FCED300834D0B /* HW_2.7_TableView_Persons */,
 				638969C0248FCED300834D0B /* Products */,
 			);
@@ -181,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				638969CF248FCED800834D0B /* LaunchScreen.storyboard in Resources */,
-				63B4B00324907C4500EC32D5 /* Default-568h@2x.png in Resources */,
 				638969CC248FCED800834D0B /* Assets.xcassets in Resources */,
 				638969CA248FCED300834D0B /* Main.storyboard in Resources */,
 			);
